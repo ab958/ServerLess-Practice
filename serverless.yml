@@ -1,0 +1,25 @@
+org: zaheerbaberkhan
+app: serverless-cucmber
+service: serverless-cucmber
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: '20201221'
+
+functions:
+  users:
+    handler: functions/users/users.users
+    events:
+      - httpApi:
+          path: /
+          method: get
+  users2:
+    handler: functions/users/users2.users2
+    events:
+      - httpApi:
+          path: /
+          method: post
+plugins:
+  - serverless-offline

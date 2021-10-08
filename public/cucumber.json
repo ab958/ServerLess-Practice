@@ -1,0 +1,144 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "wahab-get-service;wahab-get",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "wahab Get",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Request1 To \"http://localhost:3000/\"",
+            "match": {
+              "location": "test\\src\\steps\\wahab.step.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Recieves Response1",
+            "match": {
+              "location": "test\\src\\steps\\wahab.step.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Recieved1 Response 200",
+            "match": {
+              "location": "test\\src\\steps\\wahab.step.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Wahab-Get_Service",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "wahab-get-service",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Wahab Get Service",
+    "tags": [
+      {
+        "name": "@Wahab-Get_Service",
+        "line": 1
+      }
+    ],
+    "uri": "test\\src\\features\\wahab.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "users-get-service;users-get",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Users Get",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Request To \"http://localhost:3000/\"",
+            "match": {
+              "location": "test\\src\\steps\\user.step.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Recieves Response",
+            "match": {
+              "location": "test\\src\\steps\\user.step.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Recieved Response 200",
+            "match": {
+              "location": "test\\src\\steps\\user.step.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Users-Get_Service",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "users-get-service",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Users Get Service",
+    "tags": [
+      {
+        "name": "@Users-Get_Service",
+        "line": 1
+      }
+    ],
+    "uri": "test\\src\\features\\user.feature"
+  }
+]
